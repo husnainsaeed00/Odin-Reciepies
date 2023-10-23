@@ -1,0 +1,65 @@
+body{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.reciepies{
+    width:100vw;
+    height:80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.tile{
+    font-size:20px;
+}
+header{
+    width:100vw;
+    height:20vh;
+    margin-top:50px;
+
+}
+h2{
+   
+    padding-top: 30px;
+    text-align: center;
+    color: crimson;
+    font-family: monospace;
+    font-size: 50px;
+
+}
+h3,h4,h5,h6{
+    color: crimson;
+    margin-top: 30px;
+
+}
+img:hover{
+    transform: scale(1.1);
+    border-radius:5px;
+    background-color: bisque;
+}
+
+/* res1 css*/
+
+#recipy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.leftImg{
+    width:30%;
+    padding-left: 15px;
+    float:left;
+}
+.info{
+    width:65%;
+    float: right;
+    background-color: beige;
+    border: 1px solid gray;
+    border-radius: 5px; padding: 15px;
+}
+a{
+    text-decoration: none;
+}
